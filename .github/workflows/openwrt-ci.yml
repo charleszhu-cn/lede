@@ -114,6 +114,7 @@ jobs:
           CONFIG_LIBCURL_MBEDTLS=y
           CONFIG_LIBCURL_NO_SMB="!"
           CONFIG_LIBCURL_PROXY=y
+          
           CONFIG_OPENVPN_openssl_ENABLE_DEF_AUTH=y
           CONFIG_OPENVPN_openssl_ENABLE_FRAGMENT=y
           CONFIG_OPENVPN_openssl_ENABLE_LZ4=y

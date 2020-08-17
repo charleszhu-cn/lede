@@ -103,6 +103,8 @@ jobs:
           CONFIG_TARGET_x86=y
           CONFIG_TARGET_x86_64=y
           CONFIG_TARGET_x86_64_DEVICE_generic=y
+          # CONFIG_GRUB_EFI_IMAGES is not set
+          CONFIG_GRUB_TITLE="SpaceX"
           CONFIG_LIBCURL_COOKIES=y
           CONFIG_LIBCURL_FILE=y
           CONFIG_LIBCURL_FTP=y
@@ -123,16 +125,27 @@ jobs:
           CONFIG_PACKAGE_collectd-mod-network=y
           CONFIG_PACKAGE_collectd-mod-rrdtool=y
           CONFIG_PACKAGE_frpc=y
+          # CONFIG_PACKAGE_grub2-efi is not set
           CONFIG_PACKAGE_ip6tables=y
           CONFIG_PACKAGE_iptables-mod-conntrack-extra=y
           CONFIG_PACKAGE_iptables-mod-ipopt=y
+          # CONFIG_PACKAGE_iptables-mod-ipsec is not set
           CONFIG_PACKAGE_ipv6helper=y
           CONFIG_PACKAGE_kcptun-client=y
+          # CONFIG_PACKAGE_kmod-crypto-cbc is not set
+          # CONFIG_PACKAGE_kmod-crypto-deflate is not set
+          # CONFIG_PACKAGE_kmod-crypto-des is not set
+          # CONFIG_PACKAGE_kmod-crypto-echainiv is not set
+          # CONFIG_PACKAGE_kmod-crypto-hmac is not set
+          # CONFIG_PACKAGE_kmod-crypto-md5 is not set
           CONFIG_PACKAGE_kmod-ifb=y
+          # CONFIG_PACKAGE_kmod-ipsec is not set
           CONFIG_PACKAGE_kmod-ipt-conntrack-extra=y
           CONFIG_PACKAGE_kmod-ipt-ipopt=y
+          # CONFIG_PACKAGE_kmod-ipt-ipsec is not set
           CONFIG_PACKAGE_kmod-ipt-nat6=y
           CONFIG_PACKAGE_kmod-iptunnel=y
+          # CONFIG_PACKAGE_kmod-iptunnel6 is not set
           CONFIG_PACKAGE_kmod-nf-nat6=y
           CONFIG_PACKAGE_kmod-sched-cake=y
           CONFIG_PACKAGE_kmod-sched-cake-virtual=y
@@ -148,6 +161,7 @@ jobs:
           CONFIG_PACKAGE_libffmpeg-audio-dec=y
           CONFIG_PACKAGE_libflac=y
           CONFIG_PACKAGE_libgd=y
+          # CONFIG_PACKAGE_libgmp is not set
           # CONFIG_PACKAGE_libhttp-parser is not set
           CONFIG_PACKAGE_libid3tag=y
           CONFIG_PACKAGE_libjpeg-turbo=y
@@ -161,6 +175,7 @@ jobs:
           CONFIG_PACKAGE_libwebp=y
           CONFIG_PACKAGE_libwebsockets-full=y
           CONFIG_PACKAGE_luci-app-frpc=y
+          # CONFIG_PACKAGE_luci-app-ipsec-vpnd is not set
           CONFIG_PACKAGE_luci-app-minidlna=y
           CONFIG_PACKAGE_luci-app-mwan3=y
           CONFIG_PACKAGE_luci-app-mwan3helper=y
@@ -211,6 +226,7 @@ jobs:
           CONFIG_PACKAGE_qos-scripts=y
           CONFIG_PACKAGE_rrdtool1=y
           CONFIG_PACKAGE_sqm-scripts=y
+          # CONFIG_PACKAGE_strongswan is not set
           CONFIG_PACKAGE_tc=y
           CONFIG_PACKAGE_transmission-daemon-openssl=y
           CONFIG_PACKAGE_transmission-web-control=y
@@ -226,6 +242,7 @@ jobs:
           CONFIG_SQLITE3_RTREE=y
           # CONFIG_UnblockNeteaseMusic_Go is not set
           # CONFIG_UnblockNeteaseMusic_NodeJS is not set
+          # CONFIG_VMDK_IMAGES is not set
           EOF
 
 
